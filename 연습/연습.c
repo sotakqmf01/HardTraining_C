@@ -4,11 +4,12 @@
 #include <time.h>
 
 int main(void) {
+	int a[5] = { 0,1,2,3,4 };
+
+	printf("%d\n", a[3942348723492]);
 
 	return 0;
 }
-
-
 
 //int main(void){
 //	int a[2][10] = { { 0,1,2,3,4,5 },

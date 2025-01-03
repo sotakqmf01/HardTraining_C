@@ -28,7 +28,7 @@ void QuickSort(int* aList, int start, int end) {
 			aList[e] = aList[pivot];
 			aList[pivot] = tmp;
 		}
-		for (int i = 0; i < 11; i++)
+		for (int i = 0; i < 9; i++)
 			printf("%d  ", aList[i]);
 		putchar('\n');
 	}
@@ -49,7 +49,8 @@ void QuickSort(int* aList, int start, int end) {
 
 int main(void)
 {
-	int aList[11] = { 26, 5, 11, 1, 59, 11, 61, 15, 48, 20, 11 };
+	int aList[9] = { 2, 7, 4, 3, 5, 9, 6, 8, 1 };
+	//int aList[11] = { 26, 5, 11, 1, 59, 11, 61, 15, 48, 20, 11 };
 	//{ 10, 9 };
 	//
 	//{ 11,11,11,11,11,11,20,20,20,20,20 };
